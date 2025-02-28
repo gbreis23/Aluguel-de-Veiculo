@@ -1,0 +1,46 @@
+.box-adm{
+    background-color: rgb(252, 252, 252);
+    border-radius: 6px;
+    box-shadow: var(--box-shadow);
+    padding: 30px;
+    margin: 5px;
+}
+
+.input-adm{
+    width: 78.2%;
+    margin: 5px;
+    border-radius: 2px;
+    box-shadow: var(--box-shadow);
+    padding: 10px;
+    color: var(--vinho);
+    font-size: 15px;
+    border: .1px solid var(--vinho);
+    color: var(--vinho);
+}
+
+::placeholder{
+    color: var(--vinho);
+}
+
+.btn-adm{
+    background: var(--vinho);
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    padding: 10px;
+    font-size: 15px;
+    border: .1px solid var(--vinho);
+    color: white;
+    opacity: 90%;
+}
+
+.btn-adm:hover{
+    color: white;
+    background: var(--vinho);
+    opacity: 100%;
+}
+
+h2{
+    color: var(--vinho);  
+    text-align: center; 
+}

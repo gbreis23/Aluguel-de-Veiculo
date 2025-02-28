@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+* {
+	font-family: "Roboto";
+    color: var(--vinho);
+}
+
+.box-c{
+    width: 400px;
+    background-color: none;
+    box-shadow: 0px 3px 15px #00000011;
+    border: .1px solid #6105364f;
+    padding: 50px;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.box-c h1{
+    margin: 10px;
+    padding: 4px;
+    font-size: 27px;
+    text-transform: uppercase;
+    text-shadow: var(--text-shadow);
+    padding-bottom: 25px;
+    font-weight: bolder;
+    opacity: 60%;
+}
+
+.cadastro{
+    padding: 14px;
+    width: 100%;
+    margin: 7px;
+    /* box-shadow: rgba(0, 0, 0, 0.479) 0px 3px 8px; */
+    font-size: 17px;
+    border-radius: 2px;
+    background-color: none;
+    color: #610536d8;
+    border: .1em solid #6105368c;
+}
+
+::placeholder{
+    padding: 10px 0px;
+    font-size: 17px;
+    color: #610536;
+    opacity: 80%;
+}
+
+.meios{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #6105364b;
+  margin: 5px;
+}
+
+.meios img{
+  width: 40px;
+  height: 40px;
+  margin: auto 10px auto 10px;
+  border-radius: 100%;
+}
+
+.meios img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.btn-c{
+    width: 100%;
+    background: #dfdfdf28;
+    border: 1px solid #610536;
+    color: #610536;
+    box-shadow: var(--box-shadow);
+    padding: 14px 14px;
+    margin: 5px;
+    opacity: 80%;
+    border-radius: 13px;
+    font-size: 20px;
+}
+
+.btn-c:hover{
+    color: #fff;
+    background: #610536;
+    opacity: 100%;
+    transform: scale(1.0);
+}
+
+.checkbox-circle input[type="checkbox"] {
+    display: none;
+  }
+  .checkbox-circle input[type="checkbox"] + label {
+    left: -100px;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    font: 14px/20px "Open Sans", Arial, sans-serif;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+
+  .checkbox-circle input[type="checkbox"] + label:last-child {
+    margin-bottom: 0;
+  }
+  .checkbox-circle input[type="checkbox"] + label:before {
+    content: "";
+    display: block;
+    width: 1.4em;
+    height: 1.4em;
+    border: 1px solid #610536;
+    border-radius: 1em;
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-transition: all 0.2s, transform 0.3s ease-in-out;
+    transition: all 0.2s, transform 0.3s ease-in-out;
+    background: #f3f3f3;
+  }
+  .checkbox-circle input[type="checkbox"]:checked + label:before {
+    border-radius: 1em;
+    border: 2px solid #fff;
+    width: 1.2em;
+    height: 1.2em;
+    background: #610536;
+    box-shadow: 0 0 0 1px #000;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+  }
+  /* checkbox-circle end */
+  
